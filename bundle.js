@@ -4724,7 +4724,7 @@
             type: "main",
             code: "replit-unknown-2",
             at: "https://tekka-arras-placeholder.technokaguya.repl.co"
-            // featured: 1, // For Featured Status.
+            featured: 1, // For Featured Status.
           }
         ]
           .map((a, e) => ({ data: a, i: e }))
