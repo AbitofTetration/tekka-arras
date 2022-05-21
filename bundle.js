@@ -4721,8 +4721,8 @@
           {
             visible: 1,
             id: "Replit-2TDM",
-            type: "tdm",
-            code: "replit-worldwide-2",
+            type: "main",
+            code: "replit-unknown-2",
             at: p.replit("tekka-arras-placeholder")
             // featured: 1, // For Featured Status.
           }
