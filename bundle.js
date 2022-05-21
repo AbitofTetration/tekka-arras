@@ -4726,6 +4726,15 @@
             at: "https://tekka-arras-placeholder.technokaguya.repl.co",
             prefer: !0
             // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 1,
+            id: "Replit-2TDM",
+            type: "main",
+            code: "replit-worldwide-2",
+            at: "https://tekka-arras-placeholder.technokaguya.repl.co",
+            prefer: !0
+            // featured: 1, // For Featured Status.
           }
         ]
           .map((a, e) => ({ data: a, i: e }))
