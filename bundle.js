@@ -4723,7 +4723,8 @@
             id: "Replit-2TDM",
             type: "main",
             code: "replit-unknown-2",
-            at: "https://tekka-arras-placeholder.technokaguya.repl.co"
+            at: "https://tekka-arras-placeholder.technokaguya.repl.co",
+            prefer: !0
             // featured: 1, // For Featured Status.
           }
         ]
