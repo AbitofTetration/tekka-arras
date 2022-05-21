@@ -94,7 +94,7 @@
   };
   I.global = I.getGlobal(this);
   I.polyfill = function(r, p) {
-    if (p) {R
+    if (p) {
       var w = I.global;
       r = r.split(".");
       for (var a = 0; a < r.length - 1; a++) {
