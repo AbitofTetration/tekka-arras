@@ -4719,7 +4719,7 @@
         timezone: new Date().getTimezoneOffset() / -60,
         servers: [
           {
-            visible: 1,
+            visible: 0,
             id: "Replit-2TDM",
             type: "main",
             code: "replit-unknown-2",
