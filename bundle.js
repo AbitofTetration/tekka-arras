@@ -94,7 +94,7 @@
   };
   I.global = I.getGlobal(this);
   I.polyfill = function(r, p) {
-    if (p) {
+    if (p) {R
       var w = I.global;
       r = r.split(".");
       for (var a = 0; a < r.length - 1; a++) {
@@ -4719,62 +4719,11 @@
         timezone: new Date().getTimezoneOffset() / -60,
         servers: [
           {
-            visible: 0,
-            id: "Heroku-Beta",
-            type: "beta",
-            code: "heroku-frankfurt-4",
-            at: p.heroku("arrasdotio"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Heroku-FFA",
-            type: "ffa",
-            code: "heroku-frankfurt-f",
-            at: p.heroku("arras-moe"),
-            prefer: !0,
-            featured: 0 // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Glitch-Developer",
-            type: "dev",
-            code: "glitch-virginia-f",
-            at: p.glitch("arrasio5")
-            // featured: 1, // For Featured Status.
-          },
-          {
             visible: 1,
-            id: "Glitch-Domination",
-            type: "dominaton",
-            code: "glitch-virginia-d",
-            at: p.glitch("jagged-petal-parenthesis")
-            // featured: 1, // For Featured Status.
-          },
-          {
-                   visible: 1,
-            id: "Glitch-Staging",
-            type: "ffa",
-            code: "glitch-virginia-a",
-            at: p.glitch("debonair-pushy-beam")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Heroku-Event",
-            type: "main",
-            code: "heroku-virginia-x",
-            at: p.heroku("arras-mayhem"),
-             featured: 1, // For Featured Status.
-          },
-          {
-
-            visible: 0,
-            id: "Repl.it-Legacy",
-            type: "legacy",
-            code: "replit-virginia-2",
-            at: p.replit("arras-mayhem-legacy.seaguli")
+            id: "Replit-2TDM",
+            type: "tdm",
+            code: "replit-worldwide-2",
+            at: p.replit("tekka-arras-placeholder")
             // featured: 1, // For Featured Status.
           }
         ]
